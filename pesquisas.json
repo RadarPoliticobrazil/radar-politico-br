@@ -1,0 +1,61 @@
+{
+  "_leiame": "Edite este arquivo sempre que houver pesquisa nova. Cada item do array 'pesquisas' vira um card na aba 'Intenção de Voto'. Publique este arquivo no mesmo servidor/pasta do HTML para o app carregar via fetch automaticamente. Ver update-pesquisas.js para um script que valida o formato antes de publicar.",
+  "atualizadoEm": "2026-03-07",
+  "pesquisas": [
+    {
+      "instituto": "Genial/Quaest",
+      "data": "14/01/2026",
+      "amostra": "2.004 entrevistas presenciais",
+      "metodologia": "Entrevistas presenciais, 08 a 11/01/2026",
+      "fonteUrl": "https://www.jota.info/eleicoes/eleicoes-2026/ideia-e-quaest-dao-largada-ao-ano-eleitoral-com-testes-de-forca-de-lula",
+      "cenario": "1º turno — cenário sem Tarcísio de Freitas",
+      "resultados": [
+        { "nome": "Luiz Inácio Lula da Silva", "pct": 35 },
+        { "nome": "Flávio Bolsonaro", "pct": 26 },
+        { "nome": "Ratinho Júnior", "pct": 9 },
+        { "nome": "Outros / Indecisos", "pct": 30 }
+      ]
+    },
+    {
+      "instituto": "Genial/Quaest",
+      "data": "14/01/2026",
+      "amostra": "2.004 entrevistas presenciais",
+      "metodologia": "Entrevistas presenciais, 08 a 11/01/2026",
+      "fonteUrl": "https://www.jota.info/eleicoes/eleicoes-2026/ideia-e-quaest-dao-largada-ao-ano-eleitoral-com-testes-de-forca-de-lula",
+      "cenario": "1º turno — cenário alternativo com Tarcísio de Freitas",
+      "resultados": [
+        { "nome": "Luiz Inácio Lula da Silva", "pct": 36 },
+        { "nome": "Flávio Bolsonaro", "pct": 23 },
+        { "nome": "Tarcísio de Freitas", "pct": 9 },
+        { "nome": "Ratinho Júnior", "pct": 7 },
+        { "nome": "Outros / Indecisos", "pct": 25 }
+      ]
+    },
+    {
+      "instituto": "Datafolha",
+      "data": "07/03/2026",
+      "amostra": "2.004 entrevistados em 137 municípios",
+      "metodologia": "Entrevistas presenciais, margem de erro de 2 pontos percentuais",
+      "fonteUrl": "https://www.aol.com/articles/flavio-bolsonaro-draws-even-lula-161733328.html",
+      "cenario": "2º turno (simulação) — Lula x Flávio Bolsonaro",
+      "resultados": [
+        { "nome": "Luiz Inácio Lula da Silva", "pct": 46 },
+        { "nome": "Flávio Bolsonaro", "pct": 43 },
+        { "nome": "Brancos/Nulos/Indecisos", "pct": 11 }
+      ]
+    },
+    {
+      "instituto": "Datafolha",
+      "data": "07/03/2026",
+      "amostra": "2.004 entrevistados em 137 municípios",
+      "metodologia": "Entrevistas presenciais, margem de erro de 2 pontos percentuais",
+      "fonteUrl": "https://www.aol.com/articles/flavio-bolsonaro-draws-even-lula-161733328.html",
+      "cenario": "2º turno (simulação) — Lula x Tarcísio de Freitas",
+      "resultados": [
+        { "nome": "Luiz Inácio Lula da Silva", "pct": 45 },
+        { "nome": "Tarcísio de Freitas", "pct": 42 },
+        { "nome": "Brancos/Nulos/Indecisos", "pct": 13 }
+      ]
+    }
+  ]
+}
